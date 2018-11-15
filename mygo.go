@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/linchuan/mygo_lib"
+)
 
 func main() {
-	fmt.Println("vim-go")
+	fmt.Println(mygo_lib.Reverse("vim-go"))
 }
